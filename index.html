@@ -20,14 +20,11 @@
 					</div>
 				</div>
 				<div class="btn-field">
-					<!-- <button type="button" id="proceed">Proceed</button> -->
-					
-					
+					<!-- <button type="button" id="proceed">Proceed</button> -->	
 				</div>
 			</form>
 			<button type="submit" class="btn" onclick="openPopup()">Proceed</button>
 		</div>
-
 		<div class="popup" id="popup">
 			<h1>Enter OTP</h1>
 			<p>OTP sent on given mobile number</p>
@@ -66,11 +63,6 @@
 			formbox.classList.remove("hide")
 		}
 
-
-
-
-
-
 		const input = document.querySelectorAll(".input");
 		const inputField = document.querySelector(".inputfield");
 
@@ -82,7 +74,6 @@
 			element.focus();
 
 		};
-
 
 		input.forEach((element) => {
   			element.addEventListener("keyup", (e) => {
@@ -125,9 +116,6 @@
   		}
 	});	
 
-
-
-
 function cursorRight(cell) {
 	cell.nextElementSibling.focus();
 }
@@ -144,7 +132,6 @@ document.addEventListener("keyup", function (evt) {
 		cursorLeft(evt.target);
 	}
 });
-
 
 	</script>
 
